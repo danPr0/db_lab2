@@ -1,0 +1,4 @@
+rootProject.name = 'web_layer'
+
+include 'repository_layer'
+project(':repository_layer').projectDir = file('../repository_layer')
